@@ -3,8 +3,9 @@ import utils
 from tabulate import tabulate
 
 
-def main():
-    return None
+def main(map):
+    solved_map = hc.hill_climbing(map)
+    print(tabulate(solved_map, tablefmt="grid", floatfmt=".2f"))
 
 
 map = [
@@ -39,3 +40,5 @@ map = [
 
 
 print(tabulate(map, tablefmt="grid", floatfmt=".2f"))
+
+main(map)
