@@ -20,5 +20,4 @@
     python3 GUI.py
     
     Se abrirá la siguiente ventana:
-
-    ![All text](./images/image.png)
+![All text](./images/image%201.png) 
