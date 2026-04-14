@@ -2,7 +2,6 @@ import copy
 import pytest
 import utils
 
-
 def test_is_free_to_move_reads_coordinates_as_xy():
     board = [
         [None, None],
